@@ -1,0 +1,123 @@
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+ label {
+     width: max-content;
+     color: crimson;
+     font-size: 13px;
+     border-bottom: 1px solid crimson;
+     margin: 3px 0;
+ }
+
+ .desc {
+font-size: 14px;
+ }
+
+ .star {
+     color: gold;
+ }
+
+ .username {
+     font-size: 14px;
+ }
+
+ .date {
+     font-size: 12px;
+ }
+
+ form {
+     width: 250px;
+     height: 250px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+
+ input, textarea {
+     border: none;
+     border-bottom: 1px solid gray;
+ }
+
+ input::placeholder, textarea::placeholder {
+     font-size: 12px;
+     color: darkgray;
+ }
+
+ .submitButton {
+     border: none;
+     padding: 5px;
+     border-radius: 5px;
+     color: ghostwhite;
+     background-color: crimson;
+     cursor: pointer;
+ }
+
+ .button {
+     border: none;
+     padding: 5px;
+     border-radius: 5px;
+     color: ghostwhite;
+     cursor: pointer;
+ }
+ .logout {
+     background-color: tomato;
+      }
+
+.login {
+     background-color: darkcyan;
+    margin-right: 10px;
+      }
+
+.register {
+     background-color: slateblue;
+      }
+
+.buttons, .logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.firstpage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images3.alphacoders.com/228/228417.jpg");
+    position: absolute;
+    }
+
+
+
+.firstloginContainer {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.firstlogo {
+    color: #013232;
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    font-weight: 900;
+
+}
+
+
